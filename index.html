@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>Dark and light mode</title>
+       
+    <style>
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 20px;
+  padding: 0 20px;
+  background-color: rgb(237, 237, 237)
+}
+
+.Manova{
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: white;
+  border-radius: 5px;
+  border: 2px solid #555;
+}
+
+.Manova:checked {
+  background: #333;
+}
+
+.maizina {
+  color: white;
+  background: rgb(13, 13, 13);
+}
+
+    </style>
+    </head>
+      <body >
+          <center> 
+              <form>
+                <input type="checkbox" id="Manova" class="Manova">
+                <label for="L">Change mode</label><br>
+              </form>
+          </center>
+        <script src="switch.js"></script>
+      </body>
+</html>
